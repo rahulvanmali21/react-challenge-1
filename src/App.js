@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import BuyBuildCard from "./components/BuyBuildCard";
+import Card from "./components/Card";
+import Container from "./components/Container";
+import Heading from "./components/Heading";
+import Subheading from "./components/SubHeading";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Container>
+        <Heading>
+          Power of Build.
+          <br /> Speed of Buy.
+        </Heading>
+        <Subheading>
+          All software comes with the <strong>“build vs buy”</strong> tradeoff.
+          Our goal at SuperTokens is to minimise those tradeoffs and give you
+          the best of both worlds.
+        </Subheading>
+
+        {/* main card */}
+        <BuyBuildCard />
+      </Container>
+    </>
   );
 }
 

@@ -1,0 +1,202 @@
+{
+  "configurations": [
+    {
+      "delay": 200,
+      "isRgx": false,
+      "label": "",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "8161f250-036a-11ed-9e94-edcb2d4384ee",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"build\": [\n    {\n      \"id\": \"3d70ed2c-e6bb-4211-90fc-aad9f0ab2c68\",\n      \"title\": \"Takes time to get started\"\n    },\n    {\n      \"id\": \"78f7191d-5533-40ba-b690-07dd995e82ad\",\n      \"title\": \"Requires expertise to get it right\"\n    },\n    {\n      \"id\": \"3c82c903-6a41-4ca7-b7d2-e760c0db2b16\",\n      \"title\": \"Simple to customise and add any feature\"\n    },\n    {\n      \"id\": \"5eab52c1-3cf4-4205-8e64-7ed3f4363730\",\n      \"title\": \"Pricing cannot be changed arbitrarily\"\n    },\n    {\n      \"id\": \"3998e4aa-4252-46a4-b2ba-7477c1630874\",\n      \"title\": \"No vendor lock in\"\n    },\n    {\n      \"id\": \"8733e96d-8c1e-4fef-8a36-fab36e0e651c\",\n      \"title\": \"Control over data\"\n    }\n  ],\n  \"buy\": [\n    {\n      \"id\": \"714d9217-0e4d-4d23-a9b4-5f87c098a60e\",\n      \"title\": \"May involve data stored by vendor\"\n    },\n    {\n      \"id\": \"1469bb18-ae4c-4e68-b1d4-9e0282028998\",\n      \"title\": \"Wait for vendor to launch feature\"\n    },\n    {\n      \"id\": \"d74f611c-8e30-4cd4-bc3e-3132dc179fce\",\n      \"title\": \"Likely difficult to change vendors\"\n    },\n    {\n      \"id\": \"d84a18ee-be5e-4da1-aa4a-839efde1793e\",\n      \"title\": \"Can change pricing\"\n    },\n    {\n      \"id\": \"85fc03aa-7591-4cda-b875-2f99f9d5345b\",\n      \"title\": \"Off the shelf, ready\"\n    },\n    {\n      \"id\": \"ceba6892-68b6-40b7-8549-1d3757088815\",\n      \"title\": \"Designed to be simple\"\n    }\n  ]\n}",
+      "status": 200,
+      "url": "https://example.com/build-buy/cards"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": "",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Integrate in < 15 minutes\",\n  \"detailBody\": \"SuperTokens comes with a prebuilt UI that you can directly integrate in your app in < 15 minutes\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/3d70ed2c-e6bb-4211-90fc-aad9f0ab2c68"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": " (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Vetted Engineers\",\n  \"detailBody\": \"The SuperTokens team consists of vetted engineers having >10 yrs exp in the security space\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/78f7191d-5533-40ba-b690-07dd995e82ad"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": " (copy) (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Total control\",\n  \"detailBody\": \"SuperTokens provides common customisation for UI and advanced customisations for overriding function calls\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/3c82c903-6a41-4ca7-b7d2-e760c0db2b16"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": " (copy) (copy) (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Transparent Pricing\",\n  \"detailBody\": \"We follow an open source pricing model where we grow only if you grow. Read more on our pricing page\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/5eab52c1-3cf4-4205-8e64-7ed3f4363730"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": " (copy) (copy) (copy) (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Open source model\",\n  \"detailBody\": \"SuperTokens is completely open source with dedicated guides to migrate in and out of other providers\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/3998e4aa-4252-46a4-b2ba-7477c1630874"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": " (copy) (copy) (copy) (copy) (copy) (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Your storage\",\n  \"detailBody\": \"User information is stored in your database enabling you to control and manage user data\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/714d9217-0e4d-4d23-a9b4-5f87c098a60e"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": " (copy) (copy) (copy) (copy) (copy) (copy) (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"1k+ community\",\n  \"detailBody\": \"We have a large community of open source contributors who help build requested features fast\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/1469bb18-ae4c-4e68-b1d4-9e0282028998"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": " (copy) (copy) (copy) (copy) (copy) (copy) (copy) (copy) (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Detailed guides\",\n  \"detailBody\": \"We have detailed migration guides that help you switch in and out of SuperTokens\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/d74f611c-8e30-4cd4-bc3e-3132dc179fce"
+    },
+    {
+      "delay": 0,
+      "isRgx": false,
+      "label": " (copy) (copy) (copy) (copy) (copy) (copy) (copy) (copy) (copy) (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Transparent Pricing\",\n  \"detailBody\": \"We follow an open source pricing model where we grow only if you grow. Read more on our pricing page\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/d84a18ee-be5e-4da1-aa4a-839efde1793e"
+    },
+    {
+      "delay": 0,
+      "isRgx": true,
+      "label": " (copy) (copy) (copy) (copy) (copy) (copy) (copy) (copy)",
+      "method": "GET",
+      "requestPayload": "",
+      "responseHeaders": [
+        {
+          "active": true,
+          "header": "Content-Type",
+          "id": "34d3df20-2f6b-11ed-add5-8b49e55def8a",
+          "value": "application/json; charset=utf-8"
+        }
+      ],
+      "responsePayload": "{\n  \"detailTitle\": \"Lorem ipsum\",\n  \"detailBody\": \"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs\"\n}",
+      "status": 200,
+      "url": "https://example.com/cards/"
+    }
+  ]
+}
